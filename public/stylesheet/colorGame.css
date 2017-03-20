@@ -36,7 +36,7 @@ h1 {
 	font-size: 200%;
 }
 #message {
-	display: inline-block;
+	/*display: inline-block;*/
 	width: 20%;
 }
 
