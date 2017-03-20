@@ -81,5 +81,8 @@ button:hover {
 	max-width: 800px;
 	margin: 50px auto auto 0;
 }
+#message {
+	width: 10%;
+}
 
 }
