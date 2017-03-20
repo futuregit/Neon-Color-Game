@@ -51,6 +51,7 @@ h1 {
 	background: steelblue;
 }
 button {
+	position: relative;
 	border: none;
 	background: none;
 	text-transform: uppercase;
@@ -67,4 +68,18 @@ button {
 button:hover {
 	color: white;
 	background: steelblue;
+}
+@media screen and (max-width: 600px) {
+	button {
+		letter-spacing: 0;
+	}
+	h1 {
+		line-height: 1;
+		font-size: 20px;
+	}
+	#container {
+	max-width: 800px;
+	margin: 50px auto auto 0;
+}
+
 }
