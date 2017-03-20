@@ -1,0 +1,211 @@
+html,body {
+ 
+ margin: 0;
+}
+
+.large-text {
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    font-size:40pt;
+    color:#fff;
+    float:right;
+    padding-right: 30px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.neon-anchor {
+     font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    font-size:50pt;
+    color:#fff;
+
+    text-decoration: none;
+}
+.neon-anchor-project {
+     font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    font-size:25pt;
+    color:#fff;
+ 
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0 0 0.2em #fff, 0 0 0.4em #fff, 0 0 0.6em #fff,
+                 0 0 0.8em #77f,
+                 0 0 1.2em #00f, 0 0 1.6em #00f,  0 0 2.0em #00f,  0 0 2.4em #00f;
+}
+
+
+.neon-green-text{
+    color:#fff;
+}
+.neon-green-text:hover {
+    text-shadow: 0 0 0.2em #fff, 0 0 0.4em #fff, 0 0 0.6em #fff,
+                 0 0 0.8em #7f7,
+                 0 0 1.2em #0f0, 0 0 1.6em #0f0,  0 0 2.0em #0f0,  0 0 2.4em #0f0;
+}
+.image {
+  
+   width: 100%;
+   height: 100%;
+   
+      
+}
+.neon-box {
+    display: block;
+    background: black;
+    border: #fff solid 5px;
+    border-radius: 12px;
+  
+    float: left;
+    margin: 25px 25px 0 25px;
+    
+    width: 250px;
+    height:200px;
+   
+}
+.neon-box-green:hover {
+     display: block;
+    background: black;
+    border: #fff solid 5px;
+    border-radius: 12px;
+    box-shadow: 0 0 0.2em #fff, 0 0 0.4em #fff, 0 0 0.6em #fff,
+                 0 0 0.8em #7f7,
+                 0 0 1.2em #0f0, 0 0 1.6em #0f0,  0 0 2.0em #0f0,  0 0 2.4em #0f0;
+   
+ 
+}
+.neon-box-blue:hover {
+    display: block;
+    background: black;
+    border: #fff solid 5px;
+    border-radius: 12px;
+    box-shadow: 0 0 0.2em #fff, 0 0 0.4em #fff, 0 0 0.6em #fff,
+                 0 0 0.8em #77f,
+                 0 0 1.2em #00f, 0 0 1.6em #00f,  0 0 2.0em #00f,  0 0 2.4em #00f;
+    
+}
+ul {
+    list-style-type: none;
+}
+/*.main {*/
+/*    height: 2500px; */
+/*}*/
+
+/*Sections formatting*/
+section {
+    padding: 150px 30px 0;
+}
+.contact { 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/BlackandWhiteParkWithBench.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.about {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/BlackandWhiteCountryStreetOneLane.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.project {
+    background-image: url("/img/BlackandWhiteMultiplesChessPieces.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position:fixed;
+    background: url("/img/BlackandWhiteRainingOnStreetTiles.jpeg");
+    background-size: cover;
+    height: 175px;
+    width: 100%;
+    margin: 0;
+}
+.floating {
+    float: right;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+   color:#eee;
+    /*text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff,*/
+    /*             0 0 0 #77f,*/
+    /*             0 0 0.6em #00f, 0 0 0.8em #00f,  0 0 1.0em #00f,  0 0 1.2em #00f;*/
+    display: inline-block;
+    font-size: 50pt;
+    padding: 14px 16px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-shadow: 0 0 0.2em #fff, 0 0 0.4em #fff, 0 0 0.6em #fff,
+                 0 0 0.8em #77f,
+                 0 0 1.2em #00f, 0 0 1.6em #00f,  0 0 2.0em #00f,  0 0 2.4em #00f;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+    font-size: 30pt;
+    text-decoration: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+      color:#fff;
+      text-shadow:  0 0 0.2em #fff, 0 0 0.4em #fff, 0 0 0.6em #fff,
+                 0 0 0.8em #77f,
+                 0 0 1.2em #00f, 0 0 1.6em #00f,  0 0 2.0em #00f,  0 0 2.4em #00f;
+    ;
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    section {
+    padding: 30px;
+}
+    .topnav {
+        height: 75px;
+    }
+    .neon-box {
+        width: 100%;
+        clear:both;
+        float: none;
+        text-align: center;
+        margin: auto auto 60px;
+        
+    }
+    .links {
+        padding-top: 50px;
+        padding-right: 0px;
+    }
+
+  .topnav.responsive {position: fixed; height: 175px; padding-bottom: 20px}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30pt;
+  }
+  .topnav.responsive a, .floating {
+    float: none;
+    font-size: 20pt;
+    display: block;
+    text-align: left;
+    /*padding: 10px 0 0 0;*/
+  }
+}
