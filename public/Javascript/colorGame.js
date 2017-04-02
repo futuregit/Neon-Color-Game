@@ -46,6 +46,7 @@ function setupModeButton() {
 function setupSquares() {
 	for(var i = 0; i < squares.length; i++) {
 		//add initial colors to square
+	
 	//add click listeners to squares
 	squares[i].addEventListener("click", function(){
 		//grab color of clicked square
@@ -73,7 +74,7 @@ function reset() {
 	//pick a new random color from array
 	
 	pickedColor = pickColor();
-	console.log(pickColor);
+	
 	//change colorDisplay to match pickedd Color
 	colorDisplay.textContent = pickedColor;
 	resetButton.textContent = "New Colors";
